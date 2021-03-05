@@ -1,0 +1,256 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.container>header{
+    background-image: url('images/logo.png');
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:25%;
+
+}
+.container>nav{
+    line-height:40px;
+    background-color:orangered;
+    color:white;
+    text-align:center;
+    font-variant:small-caps;
+}
+.container>article{
+    min-height:400px;
+    width:70%;
+    background-color:white;
+    float:left;
+}
+.container>aside{
+    min-height:400px;
+    width:30%;
+    background-color:lightgray;
+    float:right;
+} 
+.container > footer{
+ border-top:5px double black;
+ line-height:50px;
+ background-color:orangered;
+ text-align:center;
+ font-variant:small-caps;
+ clear:both;
+}
+.container > nav > a{
+ color:white;
+ text-decoration:none;
+ margin:0 10px;
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+
+}
+iframe[name=page]{
+    width:100%;
+    min-height: 400px;
+}
+.vmenu{
+    padding:0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    }
+.vmenu a{
+    background: url('images/icon.gif') no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px 5px 10px 90px;
+}
+.vmenu a:hover{
+    background: url('images/background.gif') no-repeat left center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color:black;
+    font-weight: bold;
+}
+.col-25{
+    width:25%;
+    float: left;
+}
+.pro{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+.pro>.name{
+    font-variant: small-caps;
+    color: orangered;
+    
+}
+.pro>.price{
+    position: absolute;
+    left:5px;
+    bottom: 5px;
+    color: orangered;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pro .image{
+    max-width: 98%;
+    height:150px;
+    margin-bottom: 10px;
+}
+.pro>.icons>.image{
+    width:25px;
+}
+.pro>.icons{
+    position: absolute;
+    right:5px;
+    bottom:5px;
+    width:35px;
+}
+.pro>.new-icon{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    width:25%;
+}
+.container{
+    position: relative;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    background-color: orangered;
+    box-shadow: 3px 3px 6px black;
+    height: 40px;
+    font-variant: small-caps;
+   
+    text-shadow: 0 0 10px white;
+}
+
+.top-right a{
+     text-decoration: none;
+}
+.top-right>a:hover{
+    color: yellow;
+}
+.company-info{
+    position: relative;
+    left: 10px;
+    font-size:20px;
+    color:white;
+    top: 100px;
+    text-shadow: 0px 0 15px orangered;
+    font-variant: small-caps;
+    height: 70px;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 2px dashed black;
+    width:350px;
+    letter-spacing: 2px;
+}
+
+.menu>ul{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li{ 
+ display:inline-block;
+ position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+
+}
+.menu ul ul a{
+    display: block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    background-color:white;
+    color:orangered;
+    z-index: 1;
+}
+.detail{
+    width: 100%;
+}    
+.detail_image{
+    width: 40%;
+    float: left;
+}
+.detail_content{
+    width: 60%;
+    float: right;
+   background-color: lightyellow;
+}
+#hmenu{
+    margin: 0px auto;
+    width: 750px;
+}
+.bantin{
+    width: 100%;
+    background-color: lightcyan;
+    margin-bottom: 20px;
+}
+.image img{
+    width: 20%;
+    float: left;
+}
+.bantin_1{
+    width: 70%;
+}
+.congnghe a{
+    text-decoration: none;
+    font-size: larger;
+    color: blue;
+    font-variant: small-caps;
+}
+.congnghe a:hover{
+    color:crimson;
+}

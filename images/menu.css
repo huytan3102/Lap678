@@ -1,0 +1,100 @@
+nav{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+font-weight: bolder;
+
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+header{
+    background-color: red;
+    height:150px;
+    background-image:url(LogoFPT.png);
+}
+footer{
+    text-align: center;
+    clear: both;;
+}
+article{
+    width:70%;
+    float: left;
+  
+}
+aside{
+    width: 30%;
+    float: right;
+}
+
+    
+    
+.vmenu{
+    padding:0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    }
+.vmenu a{
+    background: url('bullet.gif') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url(bullet2.png)no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color:black;
+    font-weight: bold;
+}
+.col-25{
+    width:25%;
+    float: left;
+}
+.pro{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+.pro>.name{
+    font-variant: small-caps;
+    color: orangered;
+    
+}
+.pro>.image{
+    max-width: 98%;
+    height:150px;
+    margin-bottom: 10px;
+}
+.pro>.icons{
+    position: absolute;
+    right:5px;
+    bottom:5px;
+}
+.pro>.new-icon{
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.container{
+    position: relative;}
+.top-right{
+        position: relative
+        ;
+        top:0px;
+        right: 0px;
+        border-bottom-left-radius: 30px;
+    }
+.company-info{
+    bottom:30px;
+    left:15px;
+}

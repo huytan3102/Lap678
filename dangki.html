@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="dinhdang.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="company-info">
+                <h1>FPT Polytechnic</h1>
+                <h3>Thực học- Thực nghiệp </h3>
+            </div>
+            <div class="top-right">
+                <a href="dangnhap.html">Đăng nhập</a> |
+                <a href="dangki.html">Đăng kí</a> |
+                <a href="#">Quên mật khẩu</a>
+            </div>
+
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html" target="page">Giới thiệu</a></li>
+                <li>
+                    <a href="contact.html">Liên hệ</a>
+                    <ul>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="feedback.html">Góp ý</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Đăng nhập:</h2>
+            <form action='#' method='post' enctype="multipart/from-data">
+                <label>User name:</label><br>
+                <input type="text"name="id"><br>
+                
+                <label>Password:</label><br>
+                <input type="password"name="password"><br>
+                
+                <label>Full name:</label><br>
+                <input type="text"name="fullname"><br>
+                
+                <label>Giới tính:</label>
+                <label><input type="radio" name="gender" checked="checked">Nữ</label>
+                <label><input type="radio" name="gender">Nam</label>
+                <br/>
+        
+                <label>Môn đăng kí</label>
+                <label><input type="checkbox" name="subject" value="yoga">Yoga</label>
+                <label><input type="checkbox" name="subject" value="thien">Thiền</label>
+                <label><input type="checkbox" name="subject" value="tinhtam">Tịnh tâm</label>
+                <br/>
+                <label>Ghi chú</label><br>
+                <textarea rows="5" cols="40">...</textarea>
+                
+                <br>
+                <label>Học tại chi nhánh:</label>
+                <select>
+                    <option value="Hà Nội">Hà nội</option>
+                    <option value="Hải Phòng">Hải Phòng</option>
+                    <option value="Đà Nẵng ">Đà Nẵng</option>
+                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                    <option value="Cần Thơ">Cần Thơ</option>
+                </select>
+                <br>
+                <label>Photo:</label><br>
+                <input type="file"name="photo">
+                </hr>
+                <button type="submit">Đăng ký</button>
+            </form>
+
+
+            
+        </article>
+        <aside>
+            <ul class="vmenu">
+                <li><a href="lap.html">Máy tính xách tay</a> </li>
+                <li><a href="mobile.html">Điện thoại di động</a> </li>
+                <li><a href="camera.html">Máy quay phim</a> </li>
+                <li><a href="camera.html">Máy chụp ảnh</a> </li>
+                <li><a href="#">Tủ lạnh</a> </li>
+                <li><a href="#">Đồng hồ đeo tay</a> </li>
+                <li><a href="#">Đồng hồ treo tường</a> </li>
+                <li><a href="#">Máy giặt</a> </li>
+                <li><a href="#">Bàn là</a> </li>
+            </ul>
+        </aside>
+
+
+        <footer>FPT Polytechnic © 2017. All rights reserved. </footer>
+</body>
+</div>
+
+</html>
